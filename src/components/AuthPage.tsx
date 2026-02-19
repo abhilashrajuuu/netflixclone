@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import type { FormEvent } from 'react'
+import { useState, type FormEvent } from 'react'
 import { login, register, type AuthUser } from '../services/auth'
 
 interface AuthPageProps {
